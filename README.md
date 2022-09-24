@@ -114,7 +114,7 @@ $ cd ./mnt/
 
 This will mount the entirety of the TempleOS filesystem to a `mnt` directory created in the primary `templeos` directory. This can be useful for browsing through and editing files that are not contained in `Home`.
 
-You can run the `./mount.sh` script multiple times; it unmounts the image before trying to mount it again. The `run.sh` script also unmounts the image before running the VM. You usually don't have to unmount it manually, but if you need to you can always do `umount ./mnt/`.
+You can run the `mount.sh` script multiple times; it unmounts the image before trying to mount it again. The `run.sh` script also unmounts the image before running the VM. You usually don't have to unmount it manually, but if you need to you can always do `umount ./mnt/`.
 
 Networking via `net-run.sh` (for Shrine images)
 -----------------------------------------------
@@ -130,7 +130,7 @@ Sources `net-config.sh` and runs Shrine with networking enabled.
 Syncing Files
 =============
 
-* **NOTE:** the `sync` script does not currently work with TInkerOS or ShrineOS; you need to use `mount.sh` to interact with their filesystems
+* **NOTE:** the `sync.sh` script does not currently work with TInkerOS or ShrineOS; you need to use `mount.sh` to interact with their filesystems
 
 The subcommand (`temple` or `host`) denotes the target of the sync operation.
 
