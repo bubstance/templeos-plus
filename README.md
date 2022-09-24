@@ -168,19 +168,33 @@ Current theme choices are:
 
 * `badwolf`
 
+* `base16`
+
 * `blaquemagick`
+
+* `catppuccin`
+
+  * `frappe`
+
+  * `latte`
+
+  * `macchiato`
+
+  * `mocha`
 
 * `dracula`
 
-* `gruvbox-dark`
+* `gruvbox`
 
-* `gruvbox-light`
+  * `dark` and `light`
 
 * `nord`
 
-* `solarized-dark`
+* `solarized`
 
-* `solarized-light`
+  * `dark` and `light`
+
+* `xterm`
 
 Installing a different fork of TempleOS
 ---------------------------------------
@@ -213,7 +227,7 @@ Additional Software
   * Copy the contents of the auto-mounted `.ISO` in TempleOS by performing the following command:
 
     ```console
-    `CopyTree("T:", "::/Apps/Screenfetch");
+    CopyTree("T:", "::/Apps/Screenfetch");
     ```
 
     This will automatically create the folder `C:/Apps/Screenfetch` and populate in with the contents of the `.ISO`
