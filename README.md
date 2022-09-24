@@ -91,7 +91,7 @@ $ ./sync.sh temple <name>.img
 Syncs the contents of the included Home directory into the TempleOS image.
 ```
 
-This will create a raw 512MiB (~537MB) virtual disk image, which is a safe minimum and should be more than enough for most use cases. You can adjust the size by editing the value of `QEMU_IMG_SIZE` in `config.sh`. No suffix indicates kilobytes, `M` is for mebibytes, `G` is for gibibytes.
+This will create a raw 512MiB (~537MB) virtual disk image, which is a safe minimum and should be more than enough for most use cases. You can adjust the size by editing the value of `QEMU_IMG_SIZE` in `config.sh`. No suffix indicates kibibytes, `M` is for mebibytes, `G` is for gibibytes.
 
 The supplied base configuration runs TempleOS with 2GiB of RAM and as many CPU cores as your system has available. You can change this by editing the value of the `-m` flag in `config.sh`; the value is in MiB by default. 512MiB is the absolute minimum amount of RAM required for TempleOS to boot.
 
