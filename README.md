@@ -49,9 +49,11 @@ These scripts are intended for use on Linux machines; Windows users will need to
 
 A few notes:
 
-* `C:` and `::` can be used interchangeably in TempleOS to refer to the root of the drive
+* `C:` and `::` can be used interchangeably in TempleOS to refer to the root of the `C:` drive (with `::` referring to the root of the currently mounted disk)
 
 * `HomeSys.HC` was uncompressed from the `HomeSys.HC.Z` located in `C:` by using the `TOSZ` tool to allow for easy external editing
+
+* These scripts only affect the `C:` drive of a TempleOS installation; the `D:` drive (and any additional drives created when installing the `TinkerOS.ISO`) are kept clean unless manually mounted and edited
 
 Dependencies
 ------------
@@ -235,7 +237,7 @@ Bonus Tips
 
   * \*\***NOTE**\*\* Changing the framerate does not seem to work in TinkerOS
 
-* If you install `TinkerOS.ISO` and set at least one of your drive's graphics mode to `15` during installation, you can then change the `-display gtk` setting in `config.sh` to `-display curses` and get a nice text-only version that works inside of a terminal or TTY
+* If you install `TinkerOS.ISO` and set at least one of your drives' graphics mode to `15` during installation, you can then change the `-display gtk` setting in `config.sh` to `-display curses` and get a nice text-only version that works inside of a terminal or TTY
 
 * You can use the `TOSZ` application made by Terry to uncompress `HC.Z` files *(Linux only)*
 
