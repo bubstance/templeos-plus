@@ -1,7 +1,7 @@
 //Place this file in /Home and change
 //anything you want.
 
-#include "~/Theme.HC"
+#include "~/Themes/gruvbox-light.HC"
 
 U0 UserStartUp()
 {//Run each time a user a spawned

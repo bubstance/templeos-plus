@@ -160,9 +160,9 @@ Customization
 Changing the theme
 ------------------
 
-Edit the `Theme.HC` file by uncommenting the theme of your choosing. The default selection is `gruvbox-light`.
+Themes are stored in the `Themes` folder in the `Home` directory.
 
-\*\***Don't forget to comment out the previously selected theme**\*\*
+Edit the `#include` in the `HomeSys.HC` file to source the theme of your choice. The default selection is `gruvbox-light`.
 
 Current theme choices are:
 
