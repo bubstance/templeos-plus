@@ -2,7 +2,7 @@ if [ -z ${QEMU_HOME+x} ]; then
     QEMU_SYSTEM_X86_64=qemu-system-x86_64
     QEMU_IMG=qemu-img
 else
-    QEMU_SYSTEM_X86_64=$QEMU_HOME/bin/qemu-system-x86_64 
+    QEMU_SYSTEM_X86_64=$QEMU_HOME/bin/qemu-system-x86_64
     QEMU_IMG=$QEMU_HOME/bin/qemu-img
 fi
 
