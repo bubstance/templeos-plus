@@ -1,9 +1,9 @@
 *RIP Terry A. Davis (1969-12-15 to 2018-08-11)*
 ===============================================
 
-*Original scripts and basic implementation by [tsoding](https://gitlab.com/tsoding), modified and expanded by myself.
+*Original scripts and basic implementation by [tsoding](https://gitlab.com/tsoding), modified and expanded by myself.*
 
-All themes are approximations of their namesakes and are not 1:1 implementations.
+*All themes are approximations of their namesakes and are not 1:1 implementations.
 All documents and files contained in this repository are for educational purposes only.
 Theme contributions and alternative Windows-specific script contributions are welcomed.*
 
