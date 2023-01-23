@@ -121,6 +121,12 @@ Networking via `net-run.sh` (for Shrine images)
 
 Sources `net-config.sh` and runs Shrine with networking enabled.
 
+Displaying in text-only mode with `text-run.sh` (for TinkerOS images)
+-----------------------------------------------
+
+Requires installing `TinkerOS` and setting the graphical display mode to `15` during installation.
+
+Sources `text-config.sh` and runs TinkerOS with in the text-only 15th mode.
 
 
 ---
