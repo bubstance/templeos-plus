@@ -190,6 +190,10 @@ Current theme choices are:
 
 * `nord`
 
+* `rosé pine`
+
+  * `normal`, `moon`, and `dawn`
+
 * `solarized`
 
   * `dark` and `light`
