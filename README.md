@@ -2,7 +2,7 @@
 ===============================================
 
 *Original scripts and basic implementation by [tsoding](https://gitlab.com/tsoding), modified and expanded by myself.
-TinkerOS `.ISO` from [tinkeros/TinkerOS](https://github.com/tinkeros/TinkerOS), Shrine `.ISO` from [minexew/Shrine](https://github.com/minexew/Shrine).
+
 All themes are approximations of their namesakes and are not 1:1 implementations.
 All documents and files contained in this repository are for educational purposes only.
 Theme contributions and alternative Windows-specific script contributions are welcomed.*
@@ -219,6 +219,8 @@ Change the `TEMPLEOS_ISO` variable in `config.sh` to either `TinkerOS.ISO` or `S
 
 Additional Software
 ===================
+
+* Try out some TempleOS forks! There's `TinkerOS` from [tinkeros/TinkerOS](https://github.com/tinkeros/TinkerOS), `Shrine` from [minexew/Shrine](https://github.com/minexew/Shrine), and `ZealOS` from [Zeal-Operating-System/ZealOS](https://github.com/Zeal-Operating-System/ZealOS).
 
 * Check out Jeff Irwin's [temple-viewer](https://github.com/JeffIrwin/temple-viewer) STL viewing application! It's really neat.
 
