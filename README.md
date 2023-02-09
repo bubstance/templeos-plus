@@ -61,7 +61,7 @@ Dependencies
 - [QEMU](https://www.qemu.org/)
 - [rsync](https://rsync.samba.org/)
 
-Scripts use settings from `config.sh`; customize it to your liking. For example, you may want to add the `-soundhw pcspk` flag to enable sound (it will be *loud*).
+Scripts use settings from `config.sh`; customize it to your liking. For example, you may want to add the following flag to enable sound: `-audiodev alsa,id=snd0 -machine pcspk-audiodev=snd0`. Replace `alsa` with `pa` for PulseAudio.
 
 
 
