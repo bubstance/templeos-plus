@@ -1,5 +1,5 @@
 // /* rose pine */
-public CBGR48 gr_palette_base16[COLORS_NUM]={
+public CBGR48 gr_palette_rosepineCOLORS_NUM]={
   0xe0e0dedef4f4, // BLACK
   0x313174748f8f, // BLUE
   0x9c9ccfcfd8d8, // GREEN
@@ -18,5 +18,5 @@ public CBGR48 gr_palette_base16[COLORS_NUM]={
   0x191917172424  // WHITE
 };
 
-GrPaletteSet(gr_palette_base16);
-MemCpy(gr_palette_std, gr_palette_base16, sizeof(gr_palette_base16));
+GrPaletteSet(gr_palette_rosepine);
+MemCpy(gr_palette_std, gr_palette_rosepine, sizeof(gr_palette_rosepine));
