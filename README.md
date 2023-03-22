@@ -7,7 +7,8 @@
 All documents and files contained in this repository are for educational purposes only.
 Theme contributions and alternative Windows-specific script contributions are welcomed.*
 
-![](screenshots/rose-pine.png)
+![](screenshots/rose-pine-main.png)
+![](screenshots/rose-pine-code.png)
 
 *rosé pine theme shown; Screenfetch app must be installed separately (see [Additional Software](#additional-software))*
 
