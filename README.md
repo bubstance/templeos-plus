@@ -7,9 +7,9 @@
 All documents and files contained in this repository are for educational purposes only.
 Theme contributions and alternative Windows-specific script contributions are welcomed.*
 
-![](screenshots/catmocha-screenfetch.png)
+![](screenshots/rose-pine.png)
 
-*catppuccin-mocha theme shown; Screenfetch app must be installed separately (see [Additional Software](#additional-software))*
+*rosé pine theme shown; Screenfetch app must be installed separately (see [Additional Software](#additional-software))*
 
 
 
