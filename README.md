@@ -7,9 +7,9 @@
 All documents and files contained in this repository are for educational purposes only.
 Theme contributions and alternative Windows-specific script contributions are welcomed.*
 
-![](screenshots/gruvlight-screenfetch.png)
+![](screenshots/catmocha-screenfetch.png)
 
-*gruvbox-light theme shown; Screenfetch app must be installed separately (see [Additional Software](#additional-software))*
+*catppuccin-mocha theme shown; Screenfetch app must be installed separately (see [Additional Software](#additional-software))*
 
 
 
