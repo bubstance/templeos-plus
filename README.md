@@ -212,7 +212,7 @@ Current theme choices are:
 Installing a different fork of TempleOS
 ---------------------------------------
 
-Change the `TEMPLEOS_ISO` variable in `config.sh` to either `TinkerOS.ISO` or `Shrine.ISO`, then use the `install` and `run` scripts as described above.
+Change the `TEMPLEOS_ISO` variable in `base.conf` to either `TinkerOS.ISO` or `Shrine.ISO`, then use the `install` and `run` scripts as described above.
 
 
 
@@ -266,7 +266,7 @@ Bonus Tips
 
   * \*\***NOTE**\*\* Changing the framerate does not seem to work in TinkerOS
 
-* If you install `TinkerOS.ISO` and set at least one of your drives' graphics mode to `15` during installation, you can then change the `-display gtk` setting in `config.sh` to `-display curses` and get a nice text-only version that works inside of a terminal or TTY
+* If you install `TinkerOS.ISO` and set at least one of your drives' graphics mode to `15` during installation, you can then change the `-display gtk` setting in `base.conf` to `-display curses` and get a nice text-only version that works inside of a terminal or TTY
 
 * You can use the `TOSZ` application made by Terry to uncompress `HC.Z` files *(Linux only)*
 
