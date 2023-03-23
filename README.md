@@ -7,8 +7,8 @@
 All documents and files contained in this repository are for educational purposes only.
 Theme contributions and alternative Windows-specific script contributions are welcomed.*
 
-![](screenshots/rose-pine-main.png)
-![](screenshots/rose-pine-code.png)
+![](screenshots/rose-pine/base-fetch.png)
+![](screenshots/rose-pine/base-code.png)
 
 *rosé pine theme shown; Screenfetch app must be installed separately (see [Additional Software](#additional-software))*
 
@@ -173,39 +173,39 @@ Edit the `#include` in the `HomeSys.HC` file to source the theme of your choice.
 
 Current theme choices are:
 
-* `badwolf`
+* ![`badwolf`](screenshots/badwolf)
 
-* `base16`
+* ![`base16`](screenshots/base16)
 
-* `blaquemagick`
+* ![`blaquemagick`](screenshots/blaquemagick)
 
-* `catppuccin`
+* ![`catppuccin`](screenshots/catppuccin)
 
-  * `frappe`
+  * ![`frappe`](screenshots/catppuccin/frappe)
 
-  * `latte`
+  * ![`latte`](screenshots/catppuccin/latte)
 
-  * `macchiato`
+  * ![`macchiato`](screenshots/catppuccin/macchiato)
 
-  * `mocha`
+  * ![`mocha`](screenshots/catppuccin/mocha)
 
-* `dracula`
+* ![`dracula`](screenshots/dracula)
 
-* `gruvbox`
-
-  * `dark` and `light`
-
-* `nord`
-
-* `rosé pine`
-
-  * `normal`, `moon`, and `dawn`
-
-* `solarized`
+* ![`gruvbox`](screenshots/gruvbox)
 
   * `dark` and `light`
 
-* `xterm`
+* ![`nord`](screenshots/nord)
+
+* ![`rosé pine`](screenshots/rose-pine)
+
+  * `base`, `moon`, and `dawn`
+
+* ![`solarized`](screenshots/solarized)
+
+  * `dark` and `light`
+
+* ![`xterm`](screenshots/xterm)
 
 Installing a different fork of TempleOS
 ---------------------------------------
