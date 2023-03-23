@@ -1,14 +1,14 @@
 #!/bin/sh
 
 if [ $# -lt 1 ]; then
-    echo "Usage: ./run.sh <name>.img"
+    echo "Usage: ./text-run.sh <name>.img"
     echo "ERROR: no path to image is provided"
     exit 1
 fi
 
 set -xe
 
-. ./text-config.sh
+. ./text.conf
 
 sync
 sudo umount $QEMU_IMG_MOUNT_DIR || true

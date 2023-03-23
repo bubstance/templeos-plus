@@ -62,7 +62,9 @@ Dependencies
 - [QEMU](https://www.qemu.org/)
 - [rsync](https://rsync.samba.org/)
 
-Scripts use settings from `config.sh`; customize it to your liking. For example, you may want to add the following flag to enable sound: `-audiodev alsa,id=snd0 -machine pcspk-audiodev=snd0`. Replace `alsa` with `pa` for PulseAudio.
+The `install.sh`, `mount.sh`, `run.sh`, and `sync.sh` scripts use settings from `base.conf`; customize it to your liking. For example, you may want to add the following flag to enable sound: `-audiodev alsa,id=snd0 -machine pcspk-audiodev=snd0`. Replace `alsa` with `pa` for PulseAudio.
+
+The `net-run.sh` and `text-run.sh` scripts use settings from `net.conf` and `text.conf`, respectively.
 
 
 
@@ -92,9 +94,9 @@ $ ./sync.sh temple <name>.img
 Syncs the contents of the included Home directory into the TempleOS image.
 ```
 
-This will create a raw 512MiB (~537MB) virtual disk image, which is a safe minimum and should be more than enough for most use cases. You can adjust the size by editing the value of `QEMU_IMG_SIZE` in `config.sh`. No suffix indicates kibibytes, `M` is for mebibytes, `G` is for gibibytes.
+This will create a raw 512MiB (~537MB) virtual disk image, which is a safe minimum and should be more than enough for most use cases. You can adjust the size by editing the value of `QEMU_IMG_SIZE` in `base.conf`. No suffix indicates kibibytes, `M` is for mebibytes, `G` is for gibibytes.
 
-The supplied base configuration runs TempleOS with 2GiB of RAM and as many CPU cores as your system has available. You can change this by editing the value of the `-m` flag in `config.sh`; the value is in MiB by default. 512MiB is the absolute minimum amount of RAM required for TempleOS to boot.
+The supplied base configuration runs TempleOS with 2GiB of RAM and as many CPU cores as your system has available. You can change this by editing the value of the `-m` flag in `base.conf`; the value is in MiB by default. 512MiB is the absolute minimum amount of RAM required for TempleOS to boot.
 
 Running the VM
 --------------
@@ -120,14 +122,14 @@ You can run the `mount.sh` script multiple times; it unmounts the image before t
 Networking via `net-run.sh` (for Shrine images)
 -----------------------------------------------
 
-Sources `net-config.sh` and runs Shrine with networking enabled.
+Sources `net.conf` and runs Shrine with networking enabled.
 
 Displaying in text-only mode with `text-run.sh` (for TinkerOS images)
 -----------------------------------------------
 
 Requires installing `TinkerOS` and setting the graphical display mode to `15` during installation.
 
-Sources `text-config.sh` and runs TinkerOS in the text-only 15th mode.
+Sources `text.conf` and runs TinkerOS in the text-only 15th mode.
 
 
 ---
@@ -137,7 +139,7 @@ Sources `text-config.sh` and runs TinkerOS in the text-only 15th mode.
 Syncing Files
 =============
 
-* **NOTE:** the `sync.sh` script does not currently work with TInkerOS or ShrineOS; you need to use `mount.sh` to interact with their filesystems
+* **NOTE:** the `sync.sh` script does not currently work with TinkerOS or ShrineOS; you need to use `mount.sh` to interact with their filesystems
 
 The subcommand (`temple` or `host`) denotes the target of the sync operation.
 

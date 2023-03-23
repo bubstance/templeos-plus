@@ -8,7 +8,7 @@ fi
 
 set -xe
 
-. ./net-config.sh
+. ./net.conf
 
 sync
 sudo umount $QEMU_IMG_MOUNT_DIR || true
