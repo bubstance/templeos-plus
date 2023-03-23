@@ -173,39 +173,39 @@ Edit the `#include` in the `HomeSys.HC` file to source the theme of your choice.
 
 Current theme choices are:
 
-* ![`badwolf`](screenshots/badwolf)
+* [`badwolf`](screenshots/badwolf)
 
-* ![`base16`](screenshots/base16)
+* [`base16`](screenshots/base16)
 
-* ![`blaquemagick`](screenshots/blaquemagick)
+* [`blaquemagick`](screenshots/blaquemagick)
 
-* ![`catppuccin`](screenshots/catppuccin)
+* [`catppuccin`](screenshots/catppuccin)
 
-  * ![`frappe`](screenshots/catppuccin/frappe)
+  * [`frappe`](screenshots/catppuccin/frappe)
 
-  * ![`latte`](screenshots/catppuccin/latte)
+  * [`latte`](screenshots/catppuccin/latte)
 
-  * ![`macchiato`](screenshots/catppuccin/macchiato)
+  * [`macchiato`](screenshots/catppuccin/macchiato)
 
-  * ![`mocha`](screenshots/catppuccin/mocha)
+  * [`mocha`](screenshots/catppuccin/mocha)
 
-* ![`dracula`](screenshots/dracula)
+* [`dracula`](screenshots/dracula)
 
-* ![`gruvbox`](screenshots/gruvbox)
+* [`gruvbox`](screenshots/gruvbox)
 
   * `dark` and `light`
 
-* ![`nord`](screenshots/nord)
+* [`nord`](screenshots/nord)
 
-* ![`rosé pine`](screenshots/rose-pine)
+* [`rosé pine`](screenshots/rose-pine)
 
   * `base`, `moon`, and `dawn`
 
-* ![`solarized`](screenshots/solarized)
+* [`solarized`](screenshots/solarized)
 
   * `dark` and `light`
 
-* ![`xterm`](screenshots/xterm)
+* [`xterm`](screenshots/xterm)
 
 Installing a different fork of TempleOS
 ---------------------------------------
