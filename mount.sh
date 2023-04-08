@@ -8,7 +8,7 @@ fi
 
 set -xe
 
-. ./config.sh
+. ./base.conf
 
 sync
 sudo umount $QEMU_IMG_MOUNT_DIR || true
