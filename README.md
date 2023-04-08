@@ -170,8 +170,16 @@ Changing the theme
 ------------------
 
 Themes are stored in the `Themes` folder in the `Home` directory.
-
 Edit the `#include` in the `HomeSys.HC` file to source the theme of your choice. The default selection is `gruvbox-light`.
+
+To change theme instantly, use ThemeManager.HC by Boketto.
+```c
+#include "~/Themes/ThemeManager.HC";
+SetTheme(); // No arguments to list all.
+SetTheme("nord") // argument should equal one from the list.
+SetTheme("all") // "all" cycles through all of them.
+```
+![See Demo Video](screenshots/bokettoall.mp4)
 
 Current theme choices are:
 
