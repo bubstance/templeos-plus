@@ -179,7 +179,7 @@ SetTheme(); // No arguments to list all.
 SetTheme("nord") // argument should equal one from the list.
 SetTheme("all") // "all" cycles through all of them.
 ```
-![Video](https://cdn.discordapp.com/attachments/745409702040698933/1094219947011473502/2023-04-08_21-18-18.mp4)
+![See Demo Video](screenshots/bokettoall.mp4)
 
 Current theme choices are:
 
