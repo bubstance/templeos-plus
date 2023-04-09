@@ -11,7 +11,6 @@ Bool EndsWith(U8 *str, U8 *suffix) {
   if (StrLen(suffix) > StrLen(str)) {
     return FALSE;
   }
-
   return (StrCmp(str + StrLen(str) - StrLen(suffix), suffix) == 0);
 }
 
@@ -34,12 +33,13 @@ I8 StrInArray(U8* str, U8 **arr, I64 len)
 
 
 Bool SetTheme(U8 *themename=" "){
-  Cd(__DIR__);
+  U8 *themenameloc; 
+  U8 *AbsLoc = __DIR__;
   CDirEntry *dir_entries, *dir_entry;
   I64 file_count = 0, i = 0;
 
   // Find files in the current directory
-  dir_entries = FilesFind(DirCur);
+  dir_entries = FilesFind(AbsLoc);
 
   // Count the files
   dir_entry = dir_entries;
@@ -69,19 +69,23 @@ Bool SetTheme(U8 *themename=" "){
 
   // Finally checking if the paramater is even in the Array.
   if (StrInArray(themename, filenames, file_count)){
-      "$FG,GREEN$OK: $FG,0$ switched to '%s' theme. $FD$\n", themename;
-      ExeFile2(themename); // CHANGE THEME
+      "$FG,2$OK: $FG,0$ switched to '%s' theme. $FD$\n", themename;
+      themenameloc = MStrPrint("%s/%s", AbsLoc,themename); 
+      ExeFile2(themenameloc); // CHANGE THEME
+      Free(themenameloc);
   } else{
       if (!StrCmp(themename, "all")){
         for (i = 0; i < file_count; i++){
-          ExeFile2(filenames[i]);
-          "-> %s\n", filenames[i];
-          Sleep(750);
+          themenameloc = MStrPrint("%s/%s", AbsLoc,filenames[i]);
+          ExeFile2(themenameloc);
+          "-> %s\n", themenameloc;
+          Sleep(350);
           
         }
+        Free(themenameloc);
         return -1;
       }
-      "$FG,RED$ERR: $FG,0$ Unable to find the specified theme.\nList of themes: $FD$\n", themename;
+      "$FG,4$ERR: $FG,0$ Unable to find the specified theme.\nList of themes: $FD$\n", themename;
       for (i = 0; i < file_count; i++) {
         U8 temp[256];
         StrCpy(temp, filenames[i]);
@@ -94,8 +98,4 @@ Bool SetTheme(U8 *themename=" "){
   // Free the memory allocated by FilesFind
   DirEntryDel2(dir_entries);
   return TRUE;
-}
-
-U0 ThemesAll(){
-
 }
