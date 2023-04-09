@@ -23,7 +23,7 @@ IMAGE_PATH=$1
 shift
 
 set -xe
-. ./config.sh
+. ./base.conf
 ./mount.sh "$IMAGE_PATH"
 
 case "$SUBCOMMAND" in
@@ -40,4 +40,3 @@ case "$SUBCOMMAND" in
         exit 1
         ;;
 esac
-

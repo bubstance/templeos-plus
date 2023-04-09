@@ -1,8 +1,8 @@
 //Place this file in /Home and change
 //anything you want.
 
-#include "~/Themes/ThemeManager"
-SetTheme("gruvbox-light")
+#include "~/Themes/ThemeManager.HC"
+SetTheme("gruvbox-light");
 
 U0 UserStartUp()
 {//Run each time a user a spawned

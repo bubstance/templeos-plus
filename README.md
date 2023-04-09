@@ -3,6 +3,8 @@
 
 *Original scripts and basic implementation by [tsoding](https://gitlab.com/tsoding), modified and expanded by myself.*
 
+*`ThemeManager.HC` script created and submitted by [Boketto](https://github.com/SirBoketto).*
+
 *All themes are approximations of their namesakes and are not 1:1 implementations.
 All documents and files contained in this repository are for educational purposes only.
 Theme contributions and alternative Windows-specific script contributions are welcomed.*
@@ -10,7 +12,7 @@ Theme contributions and alternative Windows-specific script contributions are we
 ![](screenshots/rose-pine/base-fetch.png)
 ![](screenshots/rose-pine/base-code.png)
 
-*rosé pine theme shown; Screenfetch app must be installed separately (see [Additional Software](#additional-software))*
+*rosé pine theme shown; Screenfetch app must be installed separately (see [Additional Software](#additional-software)).*
 
 
 
@@ -169,17 +171,18 @@ Customization
 Changing the theme
 ------------------
 
-Themes are stored in the `Themes` folder in the `Home` directory.
-Edit the `#include` in the `HomeSys.HC` file to source the theme of your choice. The default selection is `gruvbox-light`.
+Themes are stored in the `Themes` folder in the `Home` directory. Edit `SetTheme();` in `HomeSys.HC` file to source the theme of your choice on each boot. The default selection is `gruvbox-light`.
 
-To change theme instantly, use ThemeManager.HC by Boketto.
+To change theme instantly, use `ThemeManager.HC`'s `SetTheme();` command (both created by [Boketto](https://github.com/SirBoketto)).
+
 ```c
 #include "~/Themes/ThemeManager.HC";
-SetTheme(); // No arguments to list all.
-SetTheme("nord") // argument should equal one from the list.
-SetTheme("all") // "all" cycles through all of them.
+SetTheme(); // no arguments to list all available themes
+SetTheme("nord"); // name an available theme to set it
+SetTheme("all"); // "all" cycles through all themes
 ```
-![See Demo Video](screenshots/bokettoall.mp4)
+
+![ThemeManager.HC demo video by Boketto](screenshots/bokettoall.mp4)
 
 Current theme choices are:
 

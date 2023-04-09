@@ -8,7 +8,7 @@ fi
 
 set -xe
 
-. ./config.sh
+. ./base.conf
 
 $QEMU_IMG create "$1" $QEMU_IMG_SIZE
 $QEMU_SYSTEM_X86_64 $QEMU_FLAGS -cdrom $TEMPLEOS_ISO -hda "$1" -boot d
