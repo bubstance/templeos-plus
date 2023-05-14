@@ -1,3 +1,7 @@
+FUCK GITHUB AND FUCK COPILOT, WE'RE MOVING THIS SHIT TO CODEBERG
+================================================================
+[GO HERE FOR UP TO DATE VERSION](https://codeberg.org/bubstance/templeos-plus)
+
 *RIP Terry A. Davis (1969-12-15 to 2018-08-11)*
 ===============================================
 
